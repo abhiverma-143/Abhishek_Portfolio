@@ -81,7 +81,7 @@ const Contact = () => {
 
           <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-12 md:gap-16 w-full">
             {/* Web3Forms hidden fields */}
-            <input type="hidden" name="access_key" value="YOUR_W3FORMS_ACCESS_KEY" />
+            <input type="hidden" name="access_key" value="8364e08f-94bf-4fcc-bd10-98d64d59bb74" />
             <input type="hidden" name="subject" value="New Portfolio Contact — Abhishek Verma" />
             <input type="hidden" name="from_name" value="Portfolio Contact Form" />
             <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
